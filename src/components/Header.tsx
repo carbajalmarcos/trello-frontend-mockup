@@ -6,7 +6,7 @@ function Header() {
     <header className="bg-white/50">
       <p className="flex items-center justify-center text-center">
         <Image src="/logo.png" alt="" width={40} height={40} />
-        <a className="logo" href="https://leonidasesteban.com/estudiante/carbajalmarcos" target="_blank" rel="noopener noreferrer">
+        <a className="logo" href="https://leonidasesteban.com/estudiante/carbajalmarcos" target="_blank" rel="noreferrer">
           MyTrello
         </a>
       </p>

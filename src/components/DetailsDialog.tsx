@@ -7,6 +7,7 @@ import Comment from "./Comment";
 const detailsDialgoContainerOverlayCN = cntl`
   absolute 
   top-0 
+  right-0
   z-50 
   flex 
   items-center 

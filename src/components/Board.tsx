@@ -50,6 +50,7 @@ function Board() {
     setListOfLists(listOfListsClone);
   };
   const handleOpenTaskDetails = (task: ITask) => {
+    console.log("task", task)
     setCurrentTask(task);
     setShowDialog(true);
   };

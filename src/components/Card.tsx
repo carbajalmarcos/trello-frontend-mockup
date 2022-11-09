@@ -19,7 +19,7 @@ interface iProps {
   setDragged: (value: object) => void;
   user: User;
   id: string;
-  handleOpenTaskDetails: (value: ITask) => void;
+  handleOpenTaskDetails: () => void;
 }
 
 function Card({
@@ -44,7 +44,7 @@ function Card({
   };
   return (
     <div
-      onDoubleClick={() => handleOpenTaskDetails}
+      onDoubleClick={handleOpenTaskDetails}
       draggable
       onDragStart={handleDragStart}
       className={cardContainerCN}
